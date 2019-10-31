@@ -1,20 +1,11 @@
-# pm2ecosystem
-pm2 ecosystem configuration example
-
-## How to use?
-To use this in development with pm2
-```
-//ie:
-pm2 start ecosystem.config.js
-```
-To use it in production with pm2
-```
-pm2 start ecosystem.config.js --env production
-```
-
-## ecosystem.config.js
-```
-// ecosystem.config.js
+/**
+ * Execute this using pm2 s
+ * ie: To start in production 
+ * pm2 start ecosystem.config.js --env production
+ * 
+ * ie: TO start in development
+ * pm2 start ecosystem.config.js
+ */
 module.exports = {
     apps : [
         {
@@ -32,4 +23,3 @@ module.exports = {
         }
     ]
   }
-  ``` 
