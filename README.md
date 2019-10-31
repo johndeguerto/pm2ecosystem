@@ -1,6 +1,15 @@
 # pm2ecosystem
 pm2 ecosystem configuration example
 
+## Install pm2 
+```
+// Linux
+npm install pm2 -g
+
+// Darwin - macOSx
+sudo npm install pm2 -g 
+```
+
 ## How to use?
 To use this in development with pm2
 ```
@@ -11,7 +20,6 @@ To use it in production with pm2
 ```
 pm2 start ecosystem.config.js --env production
 ```
-
 ## ecosystem.config.js
 ```
 // ecosystem.config.js
